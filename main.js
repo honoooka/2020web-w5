@@ -37,7 +37,7 @@ function result() {
     newStory = newStory.replace('94 fahrenheit',temperature);
     newStory = newStory.replace('300 pounds',weight);
   }
-
+  
   story.textContent = newStory;
   story.style.visibility = 'visible';
 }
