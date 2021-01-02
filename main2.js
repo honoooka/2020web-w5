@@ -7,8 +7,8 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = '外の気温は 華氏94　度 だったので、 私は遊びに行った。:inserty:に着くと、:insertz:。 体重300ポンドの:insertx:を見かけたが、私はまったく驚かなかった。 なぜなら:inserty:ではよくあることだからだ。';
-let insertX = ['友達の梅子','津田さん','サークル仲間'];
+let storyText = '外の気温は 華氏94　度 だったので、 私は遊びに行った。:inserty:に着くと、:insertz:。 体重300ポンドの:insertx:は驚いたが、私はまったく驚かなかった。 なぜなら :inserty: ではよくあることだからだ。';
+let insertX = ['サンタクロース','ハロー・キティー','エルモ'];
 let insertY = ['海辺','USJ','富士急ハイランド'];
 let insertZ = ['人であふれていた','夕立が降ってきた','風が強くなってきた'];
 
