@@ -7,10 +7,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = '外の気温は 華氏94　度 だったので、 私は遊びに行った。:inserty:に着くと、:insertz:。 体重300ポンドの:insertx:は驚いたが、私はまったく驚かなかった。 なぜなら :inserty: ではよくあることだからだ。';
+let storyText = '外の気温は 華氏94度 だったので、 私は遊びに行った。:inserty:に着くと、:insertz:。 体重300ポンドの:insertx:は驚いたが、私はまったく驚かなかった。 なぜなら :inserty: ではよくあることだからだ。';
 let insertX = ['サンタクロース','ハロー・キティー','エルモ'];
 let insertY = ['海辺','USJ','富士急ハイランド'];
-let insertZ = ['人であふれていた','夕立が降ってきた','風が強くなってきた'];
+let insertZ = ['人であふれていた','夕立になった','風が強くなってきた'];
 
 randomize.addEventListener('click', result);
 
@@ -28,6 +28,7 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
+    newStory = newStory.replace('私',name);
     newStory = newStory.replace('私',name);
   }
 
